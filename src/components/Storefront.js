@@ -44,8 +44,7 @@ class Storefront extends React.Component {
     }
 
     filterProducts(filter) {
-        let products = this.state.originalProducts.filter(product => product.name.includes(filter))
-
+        let products = this.state.originalProducts.filter(product => product.name.toLowerCase().includes(filter))
         this.setState({products: products})
     }
 

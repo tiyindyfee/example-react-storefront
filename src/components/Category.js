@@ -20,6 +20,11 @@ class Category extends React.Component {
 
         return <div>
             <h1>Category</h1>
+            <div className="field">
+                <div className="control">
+                    <input className="input" type="text" placeholder="Search..." onKeyUp={(e) => this.props.filterProducts(e.target.value)} />
+                </div>
+            </div>
             {products}
         </div>
     }
