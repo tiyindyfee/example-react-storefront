@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Music"
+    },
+    {
+      "id": 2,
+      "name": "Movies"
+    },
+    {
+      "id": 3,
+      "name": "TV Shows"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "The ZigZags",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Jam And Bread",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Star Wars",
+      "category_id": 2
+    },
+    {
+      "id": 4,
+      "name": "Princess Bride",
+      "category_id": 2
+    },
+    {
+      "id": 5,
+      "name": "You've Got Mail",
+      "category_id": 2
+    },
+    {
+      "id": 6,
+      "name": "Friends",
+      "category_id": 3
+    }
+  ],
+  "cart": []
+}
